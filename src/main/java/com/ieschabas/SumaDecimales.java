@@ -1,4 +1,4 @@
-package com.ieschabas;
+apackage com.ieschabas;
 
 import java.util.Scanner;
 
@@ -19,10 +19,10 @@ public class SumaNotas {
         System.out.println("Introduce la tercera nota: ");
         double nota3 = scanner.nextDouble();
         // Calcular la suma
-        double  suma = nota1 + nota2 + nota3;
+        double  media = nota1 + nota2 + nota3;
 
         // Mostrar la suma en el formato solicitado
-        System.out.println(nota1 + " + " + nota2 + "+" + nota3 + " = " + suma);
+        System.out.println(nota1 + " + " + nota2 + "+" + nota3 + " = " + media);
 
         // Cerrar el Scanner
         scanner.close();
